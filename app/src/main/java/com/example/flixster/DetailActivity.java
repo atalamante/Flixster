@@ -78,7 +78,7 @@ public class DetailActivity extends YouTubeBaseActivity {
 
                 Movie movie = Parcels.unwrap(getIntent().getParcelableExtra("movie"));
 
-                if(movie.getRating() >= 7.0){
+                if(movie.getRating() >= 5.0){
                     youTubePlayer.loadVideo(youtubeKey);
                 } else {
                     youTubePlayer.cueVideo(youtubeKey);

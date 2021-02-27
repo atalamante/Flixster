@@ -104,7 +104,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 }
             });
 
-            if (movie.getRating() >= 7.0){
+            if (movie.getRating() >= 5.0){
                 popcorn.setVisibility(View.VISIBLE);
             } else {
                 popcorn.setVisibility(View.INVISIBLE);
